@@ -60,7 +60,7 @@ function Home() {
         <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
-                <h1 className='text-9xl font-bold text-blue-400 animate-pulse'>UDAAN</h1>
+                <h1 className='lg:text-9xl sm:text-5xl font-bold text-blue-400 animate-pulse'>UDAAN</h1>
                 <p className='text-center fw-semibold text-lg'> Aeromodelling Club</p>
               
             </div>
