@@ -92,6 +92,10 @@ button[type="submit"]:hover {
     .bg-dark h2 {
         font-size: 2rem;
     }
+    .text-center {
+        font-size: 1rem;
+    }
+
 }
 
 @media only screen and (max-width: 576px) {

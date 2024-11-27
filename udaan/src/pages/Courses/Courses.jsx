@@ -169,7 +169,7 @@ function Courses() {
                                       uppercase italic text-center 
                                       text-sm sm:text-base md:text-lg 
                                       leading-relaxed sm:leading-relaxed 
-                                      tracking-wide">
+                                      tracking-wide ">
                             The Udaan Aero Modelling Club has a proud record of achievements, consistently winning aeromodelling 
                             competitions at prestigious institutions like NITs, IITs, and other renowned colleges across India. 
                             These victories highlight the club's commitment to excellence, technical skill, and innovation in 

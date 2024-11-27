@@ -112,4 +112,7 @@ body {
     .about-page .container h2 {
         font-size: 2rem;
     }
+    .about-page .container p {
+        font-size: 0.75rem;
+}
 }
