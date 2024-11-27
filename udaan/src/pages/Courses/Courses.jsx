@@ -153,13 +153,30 @@ function Courses() {
         <div className="courses-page">
             {/* Header Section */}
             <header className="height-75 sm:py-20">
-                <div className="container h-100 d-flex flex-column align-items-center justify-content-center text-light">
-                    <h1 className="text-center fw-semibold text-purple-300 uppercase italic">
-                        Achievements
-                    </h1>
-                    <p className="text-purple-300 w-75 mb-5 uppercase italic text-justify justify-center">
-                        The Udaan Aero Modelling Club has a proud record of achievements, consistently winning aeromodelling competitions at prestigious institutions like NITs, IITs, and other renowned colleges across India. These victories highlight the club's commitment to excellence, technical skill, and innovation in the field of aeromodeling. Through these competitive experiences, members gain valuable exposure, showcasing their talents and representing their institution at a national level.
-                    </p>
+                <div className="container min-h-screen px-4 sm:px-6 py-10 sm:py-16 md:py-20 
+                                flex flex-col items-center justify-center">
+                    <div className="max-w-7xl mx-auto w-full">
+                        <h1 className="text-center font-semibold text-purple-300 uppercase italic 
+                                      text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 
+                                      mb-4 sm:mb-6 md:mb-8 
+                                      mt-16 sm:mt-20 md:mt-24">
+                            Achievements
+                        </h1>
+                        <p className="text-purple-300 
+                                      w-full sm:w-11/12 md:w-4/5 lg:w-3/4 
+                                      mx-auto px-4 sm:px-6 
+                                      mb-5 sm:mb-8 md:mb-10 
+                                      uppercase italic text-center 
+                                      text-sm sm:text-base md:text-lg 
+                                      leading-relaxed sm:leading-relaxed 
+                                      tracking-wide">
+                            The Udaan Aero Modelling Club has a proud record of achievements, consistently winning aeromodelling 
+                            competitions at prestigious institutions like NITs, IITs, and other renowned colleges across India. 
+                            These victories highlight the club's commitment to excellence, technical skill, and innovation in 
+                            the field of aeromodeling. Through these competitive experiences, members gain valuable exposure, 
+                            showcasing their talents and representing their institution at a national level.
+                        </p>
+                    </div>
                 </div>
             </header>
 
@@ -167,17 +184,21 @@ function Courses() {
             <div className="container py-5">
                 <div className="row g-4">
                     {courses.map((course) => (
-                        <div key={course.id} className="col-lg-6">
-                            <Card className="text-danger shadow italic scale-hover-effect hover:shadow-none">
-                                <Card.Img src={course.img} alt={course.title} />
-                                <Card.ImgOverlay className="d-flex flex-column align-items-center justify-content-center p-md-5">
-                                    <Card.Title className="fs-1 text-yellow-200 font-bold italic text-center uppercase">
+                        <div key={course.id} className="col-12 col-md-6 col-lg-4">
+                            <Card className="h-100 text-danger shadow italic scale-hover-effect hover:shadow-none">
+                                <Card.Img 
+                                    src={course.img} 
+                                    alt={course.title}
+                                    className="h-full object-cover"
+                                />
+                                <Card.ImgOverlay className="d-flex flex-column align-items-center justify-content-center p-3 p-md-4">
+                                    <Card.Title className="fs-4 md:fs-2 text-yellow-200 font-bold italic text-center uppercase">
                                         {course.title}
                                     </Card.Title>
-                                    <Card.Title className="fs-1 text-danger font-italic year">
+                                    <Card.Title className="fs-5 md:fs-3 text-danger font-italic year">
                                         {course.year}
                                     </Card.Title>
-                                    <Card.Text className="text-center text-purple-300">
+                                    <Card.Text className="text-center text-purple-300 text-sm md:text-base">
                                         {course.description}
                                     </Card.Text>
                                 </Card.ImgOverlay>

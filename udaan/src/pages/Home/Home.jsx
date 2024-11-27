@@ -86,54 +86,84 @@ function Home() {
         </div>
 
 
-        <div className='blog-section text-light py-5'>
-            <div className='container d-flex flex-column align-items-center'>
-                <h2 className='text-center  mb-5 text-bold italic'>OUR WORK</h2>
-                <div className='row g-4'>
+         <div className='blog-section text-light py-8 sm:py-12'>
+            <div className='container mx-auto px-4 sm:px-6'>
+                <h2 className='text-center mb-8 text-2xl sm:text-3xl md:text-4xl font-bold italic'>
+                    OUR WORK
+                </h2>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {blogs.map((blog) => (
-                        <div key={blog.id} className='col-md-6 col-lg-4'>
-                           
-                                <Card className='h-100 shadow scale-hover-effect'>
-                                    <Card.Img variant="top" src={blog.img} />
-                                    <Card.Body className='p-md-5 italic'>
-                                        <Card.Title>{blog.title}</Card.Title>
-                                        <Card.Text className='text-justify'>{blog.description}</Card.Text>
-                                    </Card.Body>
-                                </Card>
-                           
+                        <div key={blog.id} className='flex'>
+                            <Card className='w-full bg-white rounded-lg overflow-hidden 
+                                           shadow-lg hover:shadow-xl 
+                                           transition-all duration-300 
+                                           transform hover:scale-[1.02]'>
+                                {/* Responsive Image Container with Consistent Ratio */}
+                                <div className='relative w-full' style={{ paddingTop: '56.25%' }}> {/* 16:9 ratio */}
+                                    <Card.Img 
+                                        variant="top" 
+                                        src={blog.img} 
+                                        className='absolute top-0 left-0 w-full h-full 
+                                                  object-cover object-center'
+                                        alt={blog.title}
+                                    />
+                                </div>
+                                
+                                {/* Card Content */}
+                                <Card.Body className='p-4 sm:p-6 h-[300px]'>
+                                    <Card.Title className='text-xl font-bold mb-4 text-gray-800 text-center'>
+                                        {blog.title}
+                                    </Card.Title>
+                                    <Card.Text className='text-base text-gray-600 
+                                                        leading-relaxed text-justify 
+                                                        h-[200px] overflow-y-auto'>
+                                        {blog.description}
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
                         </div>
                     ))}
                 </div>
-              
             </div>
         </div>
         <div className="creator-section py-5">
-  <div className="container">
-    <h2 className="text-center mb-5 text-bold italic">Credits Go to Team Webmaster</h2>
-    <div className="d-flex flex-wrap justify-content-between align-items-start">
-      {/* Note Section */}
-      <div className="note-section me-4 mb-4 flex-shrink-1">
-        <div className="p-4 shadow-lg rounded bg-white">
-          <h3 className="text-bold mb-3">Note</h3>
-          <p className="text-muted">
-            Special thanks to the dedicated team for their hard work and creativity in bringing the Udaan Aeromodelling Club's vision to life. The seamless collaboration and technical expertise of the Webmasters have been instrumental in building this platform.
-          </p>
-        </div>
-      </div>
+        <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
+  <h2 className="text-center mb-5 text-bold italic">Credits Go to Team Webmaster</h2>
+  
+  {/* Note Section - Centered and Responsive */}
+  <div className="max-w-2xl mx-auto mb-8 sm:mb-12"> {/* Container for centering */}
+    <div className="p-4 sm:p-6 md:p-8 
+                    shadow-lg rounded 
+                    bg-white 
+                    transform transition-all duration-300 hover:shadow-xl">
+      <h3 className="text-bold text-lg sm:text-xl md:text-2xl 
+                     mb-3 sm:mb-4 
+                     text-center">
+        Note
+      </h3>
+      <p className="text-muted text-sm sm:text-base md:text-lg 
+                    leading-relaxed 
+                    text-center">
+        Special thanks to the dedicated team for their hard work and creativity 
+        in bringing the Udaan Aeromodelling Club's vision to life. 
+        The seamless collaboration and technical expertise of the Webmasters 
+        have been instrumental in building this platform.
+      </p>
+    </div>
+  </div>
 
-      {/* Creator Cards */}
-      <div className="row g-4 flex-grow-1">
-        {creator.map((creator) => (
-          <div key={creator.id} className="col-md-6 col-lg-3">
-            <Card className="h-100 shadow scale-hover-effect">
-              <Card.Img variant="top" src={creator.img} />
-              <Card.Body className="p-md-5 italic">
-                <Card.Title>{creator.title}</Card.Title>
-              </Card.Body>
-            </Card>
-          </div>
-        ))}
-      </div>
+    {/* Rest of your creator cards section */}
+    <div className="row g-4 ">
+      {creator.map((creator) => (
+        <div key={creator.id} className="col-md-6 col-lg-3 d-flex flex-column align-items-center">
+          <Card className="h-100 shadow scale-hover-effect ">
+            <Card.Img variant="top" src={creator.img} />
+            <Card.Body className="p-md-5 italic">
+              <Card.Title className='d-flex flex-column align-items-center'>{creator.title}</Card.Title>
+            </Card.Body>
+          </Card>
+        </div>
+      ))}
     </div>
   </div>
 </div>
