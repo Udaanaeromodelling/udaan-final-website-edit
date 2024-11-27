@@ -89,6 +89,7 @@ function Contact() {
        <div className='container my-5 d-flex justify-content-center'>
         <form id='contact-form'
  onSubmit={handleSubmit}>
+                <h1 className='text-3xl text-center font-bold mb-4 uppercase'> Connect With US</h1>
   <div className='mb-3 '>
     <div sm={12} md={6} className='mb-3 mb-md-0 '>
     <input type="text"
