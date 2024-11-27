@@ -9,7 +9,7 @@ body {
 
 /* Header Section */
 .home-page header {
-  background-image: linear-gradient(rgba(0, 51, 102, 0.85), rgba(0, 153, 204, 0.85)), url(../../utils/images/inde.png);
+  background-image: linear-gradient(rgba(10, 17, 40, 0.9), rgba(10, 17, 40, 0.8)), url(../../utils/images/inde.png);
   background-size: cover;
   background-position: center;
   color: white;
@@ -31,7 +31,7 @@ header h2 {
 }
 
 header p {
-  font-size: 1.25rem;
+  font-size: small;
 }
 
 /* Pulse Animation */
@@ -135,8 +135,8 @@ header p {
 /* Responsive Adjustments */
 @media (max-width: 992px) {
   header h1 {
-    font-size: 3.5rem;
-  }
+    font-size: xx-large;
+   }
 
   header h2 {
     font-size: 1.8rem;
@@ -157,7 +157,7 @@ header p {
 
 @media (max-width: 576px) {
   header h1 {
-    font-size: 2.5rem;
+    font-size: xx-large;
   }
 
   header h2 {

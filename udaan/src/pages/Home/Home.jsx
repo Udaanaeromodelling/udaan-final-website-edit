@@ -8,7 +8,7 @@ import Blog1Img from '../../utils/images/rc.webp';
 import Blog2Img from '../../utils/images/hovercraft.jpg';
 import Blog3Img from '../../utils/images/drone.jpg';
 import Blog4Img from '../../utils/images/workshop.jpg';
-import Blog5Img from '../../utils/images/Harshit-Sharma .jpg';
+
 import Blog6Img from '../../utils/images/Vikhyat.JPG';
 import Blog7Img from '../../utils/images/akshat.jpg';
 const blogs = [
@@ -38,11 +38,7 @@ const blogs = [
     }
 ];
 const creator = [
-    {
-        id: 5,
-        img: [Blog5Img],
-        title: 'Harshit Sharma'
-    },
+    
     {
         id: 6,
         img: [Blog6Img],
@@ -72,8 +68,8 @@ function Home() {
             <div className="container ">
                 <div className=''>
                     <div >
-                        <h2 className='text-center font-bold text-3xl  italic text-black'>Introduction</h2>
-                        <p className='text-black text-justify text-lg italic'>The Udaan Aero Modelling Club is a dynamic community dedicated to fostering a passion for aviation and aeromodeling among students. It provides a platform for learning and experimenting with the principles of flight, aircraft design, and drone technology through hands-on projects and workshops. Members gain practical experience by building and flying model aircraft, enhancing their technical skills in aerodynamics, mechanics, and electronics. The club also encourages innovation, teamwork, 
+                        <p className='text-center font-bold text-3xl  italic text-black sm:text-3xl'>Introduction</p>
+                        <p className='text-black text-justify text-lg sm:text-xl italic'>The Udaan Aero Modelling Club is a dynamic community dedicated to fostering a passion for aviation and aeromodeling among students. It provides a platform for learning and experimenting with the principles of flight, aircraft design, and drone technology through hands-on projects and workshops. Members gain practical experience by building and flying model aircraft, enhancing their technical skills in aerodynamics, mechanics, and electronics. The club also encourages innovation, teamwork, 
                             and creative problem-solving, aiming to prepare students for careers in aerospace and related fields.</p>
                       
                     </div>
@@ -126,48 +122,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className="creator-section py-5">
-        <div className="container mx-auto px-4 sm:px-6 py-8 sm:py-12">
-  <h2 className="text-center mb-5 text-bold italic">Credits Go to Team Webmaster</h2>
-  
-  {/* Note Section - Centered and Responsive */}
-  <div className="max-w-2xl mx-auto mb-8 sm:mb-12"> {/* Container for centering */}
-    <div className="p-4 sm:p-6 md:p-8 
-                    shadow-lg rounded 
-                    bg-white 
-                    transform transition-all duration-300 hover:shadow-xl">
-      <h3 className="text-bold text-lg sm:text-xl md:text-2xl 
-                     mb-3 sm:mb-4 
-                     text-center">
-        Note
-      </h3>
-      <p className="text-muted text-sm sm:text-base md:text-lg 
-                    leading-relaxed 
-                    text-center">
-        Special thanks to the dedicated team for their hard work and creativity 
-        in bringing the Udaan Aeromodelling Club's vision to life. 
-        The seamless collaboration and technical expertise of the Webmasters 
-        have been instrumental in building this platform.
-      </p>
-    </div>
-  </div>
-
-    {/* Rest of your creator cards section */}
-    <div className="row g-4 ">
-      {creator.map((creator) => (
-        <div key={creator.id} className="col-md-6 col-lg-3 d-flex flex-column align-items-center">
-          <Card className="h-100 shadow scale-hover-effect ">
-            <Card.Img variant="top" src={creator.img} />
-            <Card.Body className="p-md-5 italic">
-              <Card.Title className='d-flex flex-column align-items-center'>{creator.title}</Card.Title>
-            </Card.Body>
-          </Card>
-        </div>
-      ))}
-    </div>
-  </div>
-</div>
-
+     
     </div>
   )
 }

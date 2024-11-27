@@ -1,8 +1,6 @@
 import React from 'react';
 import './Courses.css';
-import { Link, Routes, Route } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
+
 import { Card } from 'react-bootstrap';
 import LNMIT2023 from '../../utils/images/lnmiit.png'
 import IITJODHPUR from '../../utils/images/iit jodh.png';
@@ -157,19 +155,17 @@ function Courses() {
                                 flex flex-col items-center justify-center">
                     <div className="max-w-7xl mx-auto w-full">
                         <h1 className="text-center font-semibold text-purple-300 uppercase italic 
-                                      text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 
-                                      mb-4 sm:mb-6 md:mb-8 
-                                      mt-16 sm:mt-20 md:mt-24">
+                                     text-5xl lg:text-5xl md:text-5xl  ">
                             Achievements
                         </h1>
-                        <p className="text-purple-300 
+                        <p className="text-white
                                       w-full sm:w-11/12 md:w-4/5 lg:w-3/4 
                                       mx-auto px-4 sm:px-6 
                                       mb-5 sm:mb-8 md:mb-10 
-                                      uppercase italic text-center 
+                                      uppercase italic  
                                       text-sm sm:text-base md:text-lg 
                                       leading-relaxed sm:leading-relaxed 
-                                      tracking-wide ">
+                                      tracking-wide text-justify ">
                             The Udaan Aero Modelling Club has a proud record of achievements, consistently winning aeromodelling 
                             competitions at prestigious institutions like NITs, IITs, and other renowned colleges across India. 
                             These victories highlight the club's commitment to excellence, technical skill, and innovation in 

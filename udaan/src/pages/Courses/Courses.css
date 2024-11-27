@@ -22,10 +22,9 @@ body {
 }
 
 .courses-page header h1 {
-    font-size: 3.5rem;
-    font-weight: 700;
+    
     text-transform: uppercase;
-    color: #00bcd4; /* Sky blue text resembling innovation and aviation */
+   
     text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
     letter-spacing: 2px;
 }
@@ -97,12 +96,14 @@ body {
 /* Responsive Styling */
 @media (max-width: 768px) {
     .courses-page header h1 {
-        font-size: 2.5rem;
-        margin-top: 12rem;
+       font-size:xx-large;
+        margin-top: 9rem;
     }
 
     .courses-page header p {
-        font-size: 0.5rem;
+        font-size: x-small;
+        color:#d6bcfa
+       
     }
 
     .courses-page .card {

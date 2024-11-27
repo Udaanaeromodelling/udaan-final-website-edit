@@ -9,7 +9,7 @@ body {
 
 /* Header Section */
 .about-page header {
-    background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.85)), url('../../utils/images/about-page-header.jpg');
+    background-image: linear-gradient(rgba(10, 17, 40, 0.9), rgba(10, 17, 40, 0.8)),  url('../../utils/images/about-page-header.jpg');
     background-size: cover;
     background-position: center;
     height: 75vh;
@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: #ffd700; /* Golden tone matching the logo */
+   
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
 }
 
@@ -30,7 +30,7 @@ body {
 
 .about-page header p {
     font-size: 1.2rem;
-    color: #c2d3e8; /* Subtle light blue */
+    
     width: 70%;
     line-height: 1.8;
     text-align: justify;
@@ -41,7 +41,7 @@ body {
 .about-page .container h2 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #ffd700; /* Golden tone */
+ 
     text-transform: uppercase;
     margin-bottom: 2rem;
     text-align: center;
@@ -49,7 +49,7 @@ body {
 
 .about-page .container p {
     font-size: 1rem;
-    color: #438cd0; /* Off-white for readability */
+
     line-height: 1.8;
     text-align: justify;
 }
@@ -101,11 +101,12 @@ body {
 /* Responsive Styling */
 @media (max-width: 768px) {
     .about-page header h1 {
+        margin-top: 90px;
         font-size: 2.5rem;
     }
 
     .about-page header p {
-        font-size: 1rem;
+        font-size: x-small;
         width: 90%;
     }
 
@@ -113,6 +114,7 @@ body {
         font-size: 2rem;
     }
     .about-page .container p {
-        font-size: 0.75rem;
+     
+        font-size:small ;
 }
 }
