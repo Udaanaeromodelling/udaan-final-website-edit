@@ -5,7 +5,7 @@ import { Card } from 'react-bootstrap';
 import Blog1Img from '../../utils/images/rc.webp';
 import Blog2Img from '../../utils/images/hovercraft.jpg';
 import Blog3Img from '../../utils/images/drone.jpg';
-import Blog4Img from '../../utils/images/workshop.jpg';
+import Blog4Img from '../../utils/images/workshop.jpg'; 
 const blogs = [
     {
         id: 1,
