@@ -1,16 +1,11 @@
 import React from 'react';
 import './Home.css';
-import { Link } from 'react-router-dom';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
-
 import { Card } from 'react-bootstrap';
 import Blog1Img from '../../utils/images/rc.webp';
 import Blog2Img from '../../utils/images/hovercraft.jpg';
 import Blog3Img from '../../utils/images/drone.jpg';
 import Blog4Img from '../../utils/images/workshop.jpg';
-
-import Blog6Img from '../../utils/images/Vikhyat.JPG';
-import Blog7Img from '../../utils/images/akshat.jpg';
 const blogs = [
     {
         id: 1,
@@ -36,19 +31,6 @@ const blogs = [
         title: 'WorkShop',
         description: 'An aeromodelling workshop is a hands-on training session where participants learn to design, build, and fly model aircraft. These workshops typically cover topics such as aerodynamics, aircraft construction, remote control systems, and flight techniques, providing practical experience in aeromodelling for enthusiasts and aspiring engineers.'
     }
-];
-const creator = [
-    
-    {
-        id: 6,
-        img: [Blog6Img],
-        title: 'Vikhyat Agrawal'
-    },
-    {
-        id: 7,
-        img: [Blog7Img],
-        title: 'Akshat'
-        }, 
 ];
 function Home() {
   return (
