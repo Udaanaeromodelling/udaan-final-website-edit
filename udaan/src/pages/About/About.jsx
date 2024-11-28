@@ -1,58 +1,7 @@
 import React from 'react';
 import './About.css';
-import { Link } from 'react-router-dom';
-import { Card } from 'react-bootstrap';
 import AboutUsSectionImg from '../../utils/images/udaan.png';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
-import moment1 from '../../utils/images/momet1.png';
-import Person2 from '../../utils/images/IIT RURKEE.png';
-import Person3 from '../../utils/images/person3.jpg';
-import Person4 from '../../utils/images/person4.jpg';
-import Person5 from '../../utils/images/person5.jpg';
-import Person6 from '../../utils/images/person6.jpg';
-import Person7 from '../../utils/images/person7.jpg';
-import Person8 from '../../utils/images/person8.jpg';
-import Person9 from '../../utils/images/person9.jpg';
-
-const persons = [
-    {
-        id: 1,
-        img: [moment1]
-    },
-    {
-        id: 2,
-        img: [Person2]
-    },
-    {
-        id: 3,
-        img: [Person3]
-    },
-    {
-        id: 4,
-        img: [Person4]
-    },
-    {
-        id: 5,
-        img: [Person5]
-    },
-    {
-        id: 6,
-        img: [Person6]
-    },
-    {
-        id: 7,
-        img: [Person7]
-    },
-    {
-        id: 8,
-        img: [Person8]
-    },
-    {
-        id: 9,
-        img: [Person9]
-    },
-];
-
 function About() {
     return (
         <div className='about-page'>
