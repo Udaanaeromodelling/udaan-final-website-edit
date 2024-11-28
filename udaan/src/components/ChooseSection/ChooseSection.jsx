@@ -5,7 +5,7 @@ function ChooseSection() {
   return (
     <div>
       <div className="container">
-        <h2 className='text-center mb-5 font-bold text-black'>We Are</h2>
+        <h2 className='text-center mb-5 font-bold text-white italic'>We Are</h2>
         <div className='row g-4'>
           <div className='col-lg-4'>
             <Card className='d-flex align-items-center border-0 h-[300px] 

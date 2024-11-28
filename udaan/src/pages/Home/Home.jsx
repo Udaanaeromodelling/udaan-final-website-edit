@@ -9,25 +9,25 @@ import Blog4Img from '../../utils/images/workshop.jpg';
 const blogs = [
     {
         id: 1,
-        img: [Blog1Img],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/rc.webp",
         title: 'RC Plane',
         description: 'An RC (Radio-Controlled) plane is a model aircraft piloted remotely via a handheld transmitter, allowing precise control over its flight. Designed for enthusiasts and engineers alike, RC planes simulate real-flight dynamics, making them ideal for learning aerodynamics, piloting, and model aircraft design.'
     },
     {
         id: 2,
-        img: [Blog2Img],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/hovercraft.jpg",
         title: 'HoverCraft',
         description: 'A hovercraft is an air-cushion vehicle that glides smoothly over surfaces like water, land, or ice using a powerful fan system. This unique design enables it to operate in areas inaccessible to traditional vehicles, making it versatile for transport and exploration.'
     },
     {
         id: 3,
-        img: [Blog3Img],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/drone.jpg",
         title: 'Drone',
         description: 'An aeromodelling workshop is a hands-on training session where participants learn to design, build, and fly model aircraft. These workshops typically cover topics such as aerodynamics, aircraft construction, remote control systems, and flight techniques, providing practical experience in aeromodelling for enthusiasts and aspiring engineers.'
     },
     {
         id: 4,
-        img: [Blog4Img],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/workshop.jpg",
         title: 'WorkShop',
         description: 'An aeromodelling workshop is a hands-on training session where participants learn to design, build, and fly model aircraft. These workshops typically cover topics such as aerodynamics, aircraft construction, remote control systems, and flight techniques, providing practical experience in aeromodelling for enthusiasts and aspiring engineers.'
     }
