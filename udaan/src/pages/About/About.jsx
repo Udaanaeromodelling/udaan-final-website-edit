@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.css';
-import AboutUsSectionImg from '../../utils/images/udaan.png';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
 function About() {
     return (
@@ -32,7 +31,7 @@ function About() {
                      
                     </div>
                     <div className='col-lg-6 d-flex justify-content-center'>
-                        <img src={AboutUsSectionImg}  alt="" />
+                        <img src="https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/udaan.png"  alt="" />
                     </div>
                 </div>
             </div>

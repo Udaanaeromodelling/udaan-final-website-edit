@@ -2,144 +2,130 @@ import React from 'react';
 import './Courses.css';
 
 import { Card } from 'react-bootstrap';
-import LNMIT2023 from '../../utils/images/lnmiit.png'
-import IITJODHPUR from '../../utils/images/iit jodh.png';
-import IITKANPUR from '../../utils/images/IIT Kanpur.png';
-import JODH from '../../utils/images/jodh.png';
-import IITBOMBAY from '../../utils/images/IIt bombay 2017.png';
-import LNMIIT from '../../utils/images/LNMIT.png';
-import IITKHARAGPUR from '../../utils/images/IIT KHARAGPUR.png';
-import IITKHARAGPUR2 from '../../utils/images/IIT Kharagpur 2.png';
-import RGPIT   from '../../utils/images/rgpit.png'
-import Science from '../../utils/images/science.png'
-import JECRC   from '../../utils/images/JECRC.png'
-import MNIT   from '../../utils/images/mnit.png'
-import Shydri from '../../utils/images/shyadri.png'
-import manipal from '../../utils/images/Manipal 2023.png'
-import abhiyakti from '../../utils/images/Abhivyakti .png'
+
 const courses = [
     {
         id: 18,
-        img: [LNMIT2023],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/lnmiit.png",
         title: '3rd LNMIIT Jaipur',
         year: 2024,
         description: 'In 2024, the Udaan Club at LNMIT Jaipur clinched 3rd position, highlighting their dedication and exceptional teamwork',
     },
     {
         id: 17,
-        img: [abhiyakti],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/Abhivyakti%20.png",
         title: '1st, 2nd & 3rd Consolation',
         year: 2024,
         description: 'In 2024, the Udaan Club at Abhivyakti secured 1st, 2nd, and 3rd positions, along with a consolation prize for their outstanding performance.',
     },
     {
         id: 16,
-        img: [manipal],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/Manipal%202023.png",
         title: '3rd Manipal University',
         year: 2023,
         description: 'In 2023, the Udaan Club at Manipal University achieved 3rd position, demonstrating outstanding effort and collaboration.',
     },
     {
         id: 15,
-        img: [Science],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/science.png",
         title: '2nd Science Day',
         year: 2023,
         description: 'In 2023, the Udaan Club at Science Day earned 2nd place, reflecting their remarkable performance and teamwork.',
     },
     {
         id: 14,
-        img: [RGPIT],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/rgpit.png",
         year: 2023,
         title: '1st & 2nd RGIPT Raebareli',
         description: 'In 2023, the Udaan Club at RGIPT Raebareli secured both 1st and 2nd positions, demonstrating outstanding performance and leadership.',
     },
     {
         id: 13,
-        img: [MNIT],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/mnit.png",
         year: 2023,
         title: '1st, 3rd & 4th MNIT Jaipur',
         description: 'In 2023, the Udaan Club at MNIT Jaipur secured 1st, 3rd, and 4th positions, highlighting their exceptional skills and teamwork.',
     },
     {
         id: 12,
-        img: [IITBOMBAY],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/IIt%20bombay%202017.png",
         title: 'Top 10 IIT Bombay',
         year: 2022,
         description: 'In 2022, the Udaan Club at IIT Bombay ranked in the top 10, demonstrating impressive effort and collaboration.',
     },
     {
         id: 11,
-        img: [JECRC],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/JECRC.png",
         title: '1st & 2nd JECRC University',
         year: 2022,
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!',
     },
     {
         id: 10,
-        img: [Shydri],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/shyadri.png",
         title: 'Top 5 Sahyadri College',
         year: 2022,
         description: 'In 2022, the Udaan Club at JECRC University achieved both 1st and 2nd positions, showcasing their superior skill and teamwork.',
     },
     {
         id: 9,
-        img: [LNMIIT],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/LNMIT.png",
         title: '1st & 2nd LNMIIT',
         year: 2019,
         description: 'In 2019, the Udaan Club at LNMIIT secured both 1st and 2nd positions, demonstrating exceptional talent and teamwork.',
     },
     {
         id: 8,
-        img: [IITKHARAGPUR2],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/IIT%20Kharagpur%202.png",
         title: '1st IIT Kharagpur',
         year: 2019,
         description: 'In 2019, the Udaan Club at LNMIIT secured both 1st and 2nd positions, demonstrating exceptional talent and teamwork.',
     },
     {
         id: 7,
-        img: [JODH],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/jodh.png",
         title: '3rd IIT Jodhpur',
         year: 2019,
         description: 'In 2019, the Udaan Club at IIT Jodhpur earned 3rd place, reflecting their outstanding performance and commitment.',
     },
     {
         id: 6,
-        img: [IITKHARAGPUR],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/IIT%20KHARAGPUR.png",
         title: 'Runner-up IIT Kharagpur',
         year: 2018,
         description: 'In 2018, the Udaan Club at IIT Kharagpur secured the runner-up position, highlighting exceptional performance and dedication.',
     },
     {
         id: 5,
-        img: [LNMIIT],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/LNMIT.png",
         title: '2nd & 3rd LNMIIT Jaipur',
         year: 2018,
         description: 'In 2018, the Udaan Club at LNMIIT earned 2nd and 3rd positions, reflecting excellence and strong team effort.',
     },
     {
         id: 4,
-        img: [IITBOMBAY],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/IIt%20bombay%202017.png",
         title: '3rd IIT Bombay',
         year: 2017,
         description: 'In 2017, the Udaan Club at IIT Bombay achieved 3rd place, demonstrating outstanding performance and collaboration.',
     },
     {
         id: 3,
-        img: [JODH],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/jodh.png",
         title: '3rd IIT Jodhpur',
         year: 2017,
         description: 'In 2017, at IIT Jodhpur, the Udaan Club secured 3rd position, showcasing exceptional skills and teamwork.',
     },
     {
         id: 2,
-        img: [IITKANPUR],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/IIT%20Kanpur.png",
         title: '4 Team Cash Reward IIT Kanpur',
         year: 2016,
         description: 'In 2016, the Udaan Club at IIT Jodhpur ranked among the top 4 teams, earning a reward of ₹5000 each.',
     },
     {
         id: 1,
-        img: [IITJODHPUR],
+        img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/iit%20jodh.png",
         year: 2016,
         title: 'Top 10 IIT Jodhpur',
         description: 'In 2016, at IIT Jodhpur, the Udaan Club achieved remarkable success by securing the top 10 position in their competition.',

@@ -2,14 +2,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import emailjs from '@emailjs/browser'
-import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
 import {FiSend} from 'react-icons/fi'
-import Button from 'react-bootstrap/Button';
-import Harshit from '../../utils/images/harry.jpg';
-import Vikhyat from '../../utils/images/Vikhyat.JPG';
-import Akshat from '../../utils/images/akshat.jpg';
 
 
 function Contact() {
@@ -189,20 +182,25 @@ function Contact() {
                 <h2 className='text-center mb-5'>Credit TO WEBMASTER TEAM</h2>
                 <div className='row g-4'>
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
-                        <img src={Harshit} className='h-80 rounded-md w-68 hover:scale-105 hover:border-green-500 border-2 border-transparent transition-transform duration-300 ease-in-out' alt="" />
+                        <img src="https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/harry.jpg" className='h-80 rounded-md w-68 hover:scale-105 hover:border-green-500 border-2 border-transparent transition-transform duration-300 ease-in-out' alt="" />
                         <h3 className='text-center mt-3 '>Harshit Sharma</h3>
                         <h3 className='text-center mt-2 text-md '>3rd Year,PCE</h3>
                     </div>
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
-                        <img src={Vikhyat} className=' h-80 rounded-md w-68  hover:scale-105 hover:border-green-500 border-2 border-transparent transition-transform duration-300 ease-in-out' alt="" />
+                        <img src="https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/Vikhyat.JPG" className=' h-80 rounded-md w-68  hover:scale-105 hover:border-green-500 border-2 border-transparent transition-transform duration-300 ease-in-out' alt="" />
                         <h3 className='text-center mt-3'>Vikhyat Agrawal</h3>
                         <h3 className='text-center mt-2 text-md '>2nd Year,PCE</h3>
                         
                     </div>
                     <div className='col-lg-4 d-flex flex-column align-items-center '>
-                        <img src={Akshat} className='h-80 rounded-md w-68   hover:scale-105 hover:border-green-500 border-2 border-transparent transition-transform duration-300 ease-in-out' alt="" />
+                        <img src="https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/akshat.jpg" className='h-80 rounded-md w-68   hover:scale-105 hover:border-green-500 border-2 border-transparent transition-transform duration-300 ease-in-out' alt="" />
                         <h3 className='text-center mt-3'>Akshat</h3>
                         <h3 className='text-center mt-2 text-md '>2nd Year,PIET</h3>
+                    </div>
+                    <div className='col-lg-4 d-flex flex-column align-items-center '>
+                        <img src="https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/ronak.jpg" className='h-80 rounded-md w-68   hover:scale-105 hover:border-green-500 border-2 border-transparent transition-transform duration-300 ease-in-out' alt="" />
+                        <h3 className='text-center mt-3'>Ronak</h3>
+                        <h3 className='text-center mt-2 text-md '>1st Year,PIET</h3>
                     </div>
                 </div>
             </div>
