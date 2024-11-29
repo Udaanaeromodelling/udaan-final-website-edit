@@ -58,14 +58,14 @@ const courses = [
         img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/JECRC.png",
         title: '1st & 2nd JECRC University',
         year: 2022,
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!',
+        description: 'In 2022, the Udaan Club at JECRC University achieved both 1st and 2nd positions, showcasing their superior skill and teamwork.',
     },
     {
         id: 10,
         img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/shyadri.png",
         title: 'Top 5 Sahyadri College',
         year: 2022,
-        description: 'In 2022, the Udaan Club at JECRC University achieved both 1st and 2nd positions, showcasing their superior skill and teamwork.',
+        description: 'In 2022, the Udaan Club at Sahyadri College ranked in top 5, showcasing their superior skill and teamwork.',
     },
     {
         id: 9,
@@ -79,7 +79,7 @@ const courses = [
         img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/IIT%20Kharagpur%202.png",
         title: '1st IIT Kharagpur',
         year: 2019,
-        description: 'In 2019, the Udaan Club at LNMIIT secured both 1st and 2nd positions, demonstrating exceptional talent and teamwork.',
+        description: 'In 2019, the Udaan Club at IIT Kharagpur secured 1stpositions, demonstrating exceptional talent and teamwork.',
     },
     {
         id: 7,

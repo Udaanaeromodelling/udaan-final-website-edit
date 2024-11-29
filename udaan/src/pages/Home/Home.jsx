@@ -2,10 +2,7 @@ import React from 'react';
 import './Home.css';
 import ChooseSection from '../../components/ChooseSection/ChooseSection';
 import { Card } from 'react-bootstrap';
-import Blog1Img from '../../utils/images/rc.webp';
-import Blog2Img from '../../utils/images/hovercraft.jpg';
-import Blog3Img from '../../utils/images/drone.jpg';
-import Blog4Img from '../../utils/images/workshop.jpg'; 
+ 
 const blogs = [
     {
         id: 1,
@@ -23,7 +20,7 @@ const blogs = [
         id: 3,
         img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/drone.jpg",
         title: 'Drone',
-        description: 'An aeromodelling workshop is a hands-on training session where participants learn to design, build, and fly model aircraft. These workshops typically cover topics such as aerodynamics, aircraft construction, remote control systems, and flight techniques, providing practical experience in aeromodelling for enthusiasts and aspiring engineers.'
+        description: 'A drone is an unmanned aerial vehicle (UAV) that can be controlled remotely or autonomously. It is equipped with sensors, cameras, and other technology for various applications. Drones are used in industries such as photography, agriculture, delivery, and surveillance.'
     },
     {
         id: 4,
