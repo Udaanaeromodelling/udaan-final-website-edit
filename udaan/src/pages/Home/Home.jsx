@@ -20,7 +20,7 @@ const blogs = [
         id: 3,
         img: "https://raw.githubusercontent.com/Udaanaeromodelling/udaan/main/uploads/drone.jpg",
         title: 'Drone',
-        description: 'A drone is an unmanned aerial vehicle (UAV) that can be controlled remotely or autonomously. It is equipped with sensors, cameras, and other technology for various applications. Drones are used in industries such as photography, agriculture, delivery, and surveillance.'
+        description: ' A drone is an unmanned aerial vehicle (UAV) that can be controlled remotely or autonomously. It is equipped with sensors, cameras, and other technology for various applications. Drones are used in industries such as photography, agriculture, delivery, and surveillance.'
     },
     {
         id: 4,
