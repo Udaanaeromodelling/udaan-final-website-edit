@@ -7,6 +7,7 @@ import Home from './pages/Home/Home';
 import Courses from './pages/Courses/Courses';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
+import Page from './pages/Page';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100 italic'>
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
+              <Nav.Link href='/page' className='text-uppercase'>Page</Nav.Link>
               <Nav.Link href='/achivments' className='text-uppercase'>Achievements</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
             
@@ -39,6 +41,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/achivments' element={<Courses />} />
         <Route path='/about' element={<About />} />
+        <Route path='/page' element={<Page />} />
        
         <Route path='/contact' element={<Contact />} />
       </Routes>
