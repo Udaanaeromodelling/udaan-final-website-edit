@@ -6,7 +6,19 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Page.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
+.about-page {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
 /* Header Section */
 .about-page header {
     background-image: linear-gradient(rgba(10, 17, 40, 0.9), rgba(10, 17, 40, 0.8)),

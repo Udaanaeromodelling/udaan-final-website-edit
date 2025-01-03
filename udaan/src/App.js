@@ -27,7 +27,7 @@ function App() {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto justify-content-end w-100 italic'>
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
-              <Nav.Link href='/page' className='text-uppercase'>Page</Nav.Link>
+              <Nav.Link href='/page' className='text-uppercase'>Events</Nav.Link>
               <Nav.Link href='/achivments' className='text-uppercase'>Achievements</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
             
