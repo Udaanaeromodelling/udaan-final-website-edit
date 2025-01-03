@@ -12,7 +12,7 @@ import Page from './pages/Page';
 function App() {
   return (
     <div className='bg-gray-300'>
-      <Navbar expand="lg" className='position-absolute w-100'>
+      <Navbar expand="lg" className='position-absolute w-100 bg-gradient-to-b from-[#39bef7]'>
         <Container>
           <Navbar.Brand>
             <Link to="/" className='navbar-brand d-flex align-items-center'>
