@@ -30,19 +30,6 @@ const blogs = [
         description: 'An aeromodelling workshop is a hands-on training session where participants learn to design, build, and fly model aircraft. These workshops typically cover topics such as aerodynamics, aircraft construction, remote control systems, and flight techniques, providing practical experience in aeromodelling for enthusiasts and aspiring engineers.'
     }
 ];
-    const marqueeVariants = {
-        animate: {
-        x: [0, -1035],
-        transition: {
-            x: {
-            repeat: Infinity,
-            repeatType: "loop",
-            duration: 5,
-            ease: "linear",
-            },
-        },
-        },
-    };
 function Home() {
   return (
     <div className='home-page bg-gray-300'>
@@ -54,7 +41,7 @@ function Home() {
               
             </div>
         </header>
-        <Marquee/>
+        {/* <Marquee/> */}
         
 
         <div className='py-5 bg-gray-300'>

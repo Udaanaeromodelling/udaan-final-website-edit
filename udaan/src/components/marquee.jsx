@@ -5,8 +5,7 @@ const Marquee = () => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleMarqueeClick = () => {
-        window.open("/page", "_blank");
-    };
+        window.location.href = "/page";     };
 
     return (
         <div className="relative w-full overflow-hidden bg-gradient-to-r from-[#1342b0] via-[#5682e8] to-[#39bef7]">
